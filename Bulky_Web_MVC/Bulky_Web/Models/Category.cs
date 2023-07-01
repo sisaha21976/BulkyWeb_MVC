@@ -11,7 +11,9 @@ namespace Bulky_Web.Models
         
         //required is non-nullable data field
         [Required]
+        [MaxLength(30)]
         public string Name { get; set; }
+        [Range(1,255)]
         public int Displayorder { get; set; }
 
         public Category()

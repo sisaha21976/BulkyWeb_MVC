@@ -30,16 +30,30 @@ namespace Bulky_Web.Controllers
         [HttpPost]
         public IActionResult Create(Category category)
         {
-            try
+            //custom validator
+            if( category.Name == category.Displayorder.ToString())
             {
-                _dbContext.Categories.Add(category);
-                _dbContext.SaveChanges();
-            }catch(Exception e)
-            {
-                
+                ModelState.AddModelError("name", "Display Ordre and Name can not be same.");
             }
+
+            if( ModelState.IsValid) {
+                try
+                {
+                    _dbContext.Categories.Add(category);
+                    _dbContext.SaveChanges();
+                }
+                catch (Exception e)
+                {
+
+                }
+                return RedirectToAction("Index");
+            }
+            //remain on the same page
+            return View();
+            
+            
            
-            return RedirectToAction("Index");
+           
         }
     }
 }

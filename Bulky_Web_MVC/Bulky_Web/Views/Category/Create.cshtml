@@ -9,10 +9,13 @@
         <div class="mb-3 row p-1">
             <label class="p-0">Category Name</label>
             <input  class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
         </div>
+        
         <div class="mb-3 row p-1">
             <label class="p-0">Display Order</label>
             <input class="form-control" asp-for="Displayorder" />
+            <span asp-validation-for="Displayorder" class="text-danger"></span>
         </div>
 
         <div class="row">
@@ -24,6 +27,7 @@
                     Back to List
                 </a>
             </div>
+            <div asp-validation-summary="All"  class="text-bg-danger mt-3 p-2"></div>
         </div>
 
 
