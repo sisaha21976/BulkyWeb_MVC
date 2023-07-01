@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Bulky_Web.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bulky_Web.Data
 {
@@ -12,5 +13,8 @@ namespace Bulky_Web.Data
         {
 
         }
+
+        //this will create the migration code for the given entity in the DbSet generic type
+        public DbSet<Category> Categories { get; set; }
     }
 }
