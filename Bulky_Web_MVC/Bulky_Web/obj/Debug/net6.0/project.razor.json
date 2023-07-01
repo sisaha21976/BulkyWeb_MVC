@@ -1,0 +1,61 @@
+{
+  "SerializedFilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\obj\\Debug\\net6.0\\project.razor.json",
+  "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Bulky_Web.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1000
+  },
+  "RootNamespace": "Bulky_Web",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\sisaha\\Dev\\Projects\\BulkyWeb_MVC\\Bulky_Web_MVC\\Bulky_Web\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

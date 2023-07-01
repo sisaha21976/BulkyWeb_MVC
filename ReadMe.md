@@ -83,7 +83,8 @@ public DbSet<Category> Categories { get; set; }
 
 ```
 ### **Run the ``` add-migration AddCategoryTable ``` command in PM**
-### **This will create new code in a migration folder in a new class, this is handled by entity framework**
+This will create new code in a migration folder in a new class, this is handled by entity framework
+
 ### **Run ` update-database ` command to update all the migration in the Database**
 Output will look like below :
 ```
